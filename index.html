@@ -16,36 +16,19 @@
     .subtitle{margin:.25rem 0 0 0; color: var(--muted);}
     nav{padding: .75rem 1rem; display:flex; flex-wrap:wrap; gap:.75rem; position: sticky; top:0; background: rgba(255,255,255,.95); border-bottom:1px solid var(--accent); backdrop-filter:saturate(180%) blur(4px);}
     nav a{ text-decoration: none; color: var(--link); font-weight: 500; margin-right:.5rem; }
-    main{padding: 1rem 1rem 3rem;}
-    .layout{display:grid; grid-template-columns: 280px 1fr; gap: 1.5rem; align-items:start;}
+
+    /* Profile header (photo + contact) */
+    .profile{ display:grid; grid-template-columns: 180px 1fr; gap: 1.25rem; align-items:center; padding: 1rem 0 0; }
+    .headshot{ margin: 0; text-align:center; }
+    .headshot img{ width:160px; height:160px; border-radius:50%; object-fit:cover; border:2px solid var(--accent); }
+    .contact-list{ display:grid; grid-template-columns: 1fr 1fr; gap:.5rem 1rem; }
+    .contact-list .label{ font-weight:600; color:var(--muted); display:block; }
+    .contact-list a{ color:var(--link); word-break:break-word; }
+
     @media (max-width:900px){
-      .layout{ grid-template-columns: 1fr; }
-      .sidebar{
-        position: static;
-        top: auto;
-        border-right: none;
-        border-bottom: 1px solid var(--accent);
-        padding-right: 0;
-        padding-bottom: 1rem;
-        margin-bottom: 1rem;
-      }
-      .headshot img{ width: 120px; height: 120px; }
-    }
-    .sidebar{border-right:1px solid var(--accent); padding-right:1rem; position: sticky; top:3.25rem;}
-    .sidebar h2{font-size:1.1rem; margin:.25rem 0 .5rem 0; border-bottom:2px solid var(--accent); padding-bottom:.25rem;}
-    .sidebar .block{margin:.75rem 0;}
-    .sidebar .label{font-weight:600; display:block; font-size:.95rem; margin-bottom:.1rem;}
-    .sidebar a{color:var(--link); word-break:break-word;}
-    .headshot {
-      margin: .5rem 0 1rem;
-      text-align: center;
-    }
-    .headshot img {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid var(--accent);
+      .profile{ grid-template-columns: 1fr; text-align:center; }
+      .contact-list{ grid-template-columns: 1fr; }
+      .headshot img{ width:120px; height:120px; }
     }
     section{margin: 1.5rem 0;}
     h2{margin:0 0 .5rem 0; font-size: 1.35rem; border-bottom: 2px solid var(--accent); padding-bottom:.35rem;}
@@ -78,180 +61,179 @@
     <a href="#skills">Technical Skills</a>
     <a href="#experience">Projects & Experience</a>
     <a href="#publications">Publications</a>
-    <a href="#contact">Contact</a>
   </nav>
 
   <main>
-    <div class="layout">
-      <aside class="sidebar">
-        <div class="headshot">
-          <img src="assets/headshot.jpg" alt="Portrait of Jun Zhao" />
-        </div>
-        <h2>Contact</h2>
-        <div class="block">
-          <span class="label">Address</span>
-          <div>Tucson, Arizona, USA</div>
-        </div>
-        <div class="block">
-          <span class="label">Mobile</span>
-          <div>(+1) 520-278-8412</div>
-        </div>
-        <div class="block">
-          <span class="label">Email</span>
-          <div><a href="mailto:zhaojun@arizona.edu">zhaojun@arizona.edu</a></div>
-        </div>
-        <div class="block">
-          <span class="label">LinkedIn</span>
-          <div><a href="https://linkedin.com/in/zhaojun" target="_blank" rel="noopener">linkedin.com/in/zhaojun</a></div>
-        </div>
-        <div class="block">
-          <span class="label">Google Scholar</span>
-          <div><a href="https://scholar.google.com/citations?hl=en&pli=1&user=KJ0F-MMAAAAJ" target="_blank" rel="noopener">scholar.google.com</a></div>
-        </div>
-      </aside>
-
-      <div class="content">
-        <section id="about">
-          <h2>About</h2>
-          <p>
-            I specialize in <strong>human–computer interaction experiments</strong>, <strong>traffic simulation</strong>, and <strong>data‑driven mobility analysis</strong>. My recent work includes <strong>agent‑based modeling</strong>, <strong>cloud‑native macroscopic simulation</strong>, and <strong>behavioral analytics</strong> leveraging large‑scale location‑based services (LBS) datasets.
-          </p>
-        </section>
-
-        <section id="work">
-          <h2>Work</h2>
-          <div class="grid">
-            <div class="meta">July 2024 – Present · Tucson, Arizona</div>
-            <div class="item">
-              <h3>Postdoctoral Researcher — University of Arizona</h3>
-              <div class="meta">Research Areas: Agent-based Model, Micromobility, Traffic Simulation</div>
-            </div>
-
-            <div class="meta">Jan 2024 – July 2024 · Hangzhou, China</div>
-            <div class="item">
-              <h3>Postdoctoral Researcher — Zhejiang University</h3>
-              <div class="meta">Research Areas: Human‑Computer Interactive Experiment, Agent‑based Model</div>
-            </div>
-
-            <div class="meta">Jul 2021 – Dec 2023 · Hangzhou, China</div>
-            <div class="item">
-              <h3>Senior Algorithm Engineer — Alibaba Cloud Computing Co. Ltd.</h3>
-              <div class="meta">Research Areas: Macroscopic Traffic Simulation, Computational Graph, LBS Data Analysis</div>
-            </div>
-
-            <div class="meta">Aug 2015 – May 2021 · College Park, MD</div>
-            <div class="item">
-              <h3>Research Assistant (Part‑time) — National Transportation Center, University of Maryland</h3>
-              <div class="meta">Research Areas: Discrete Choice Model, Human Mobility, Travel Mode & Purpose Detection</div>
-            </div>
-          </div>
-        </section>
-
-        <section id="education">
-          <h2>Education</h2>
-          <div class="grid">
-            <div class="meta">Aug 2015 – May 2021 · College Park, MD</div>
-            <div class="item">
-              <h3>Ph.D., Transportation Engineering — University of Maryland</h3>
-              <div class="meta">GPA: 3.89/4.0 · Coursework: Applied Machine Learning; Discrete Choice Analysis; Computational Statistics</div>
-            </div>
-
-            <div class="meta">Sep 2012 – Jun 2015 · Shanghai, China</div>
-            <div class="item">
-              <h3>M.S., Management Science & Logistics — Tongji University</h3>
-              <div class="meta">GPA: 3.52/4.0 · Coursework: Probability & Statistics; Advanced Operations Research</div>
-            </div>
-
-            <div class="meta">Sep 2008 – Jun 2012 · Nanjing, China</div>
-            <div class="item">
-              <h3>B.S., Industrial Engineering — Nanjing University</h3>
-              <div class="meta">GPA: 3.50/4.0 · Coursework: Operations Research; Data Structures & Algorithms; Probability & Statistics</div>
-            </div>
-          </div>
-        </section>
-
-        <section id="skills">
-          <h2>Technical Skills</h2>
-          <p> C++, Python, scikit‑learn, TensorFlow, PyTorch, R, SQL, Docker, Ray </p>
-        </section>
-
-        <section id="experience">
-          <h2>Projects & Experience</h2>
-
-          <div class="item">
-            <h3>Human‑Computer Interactive Experiment in Transportation <span class="meta">(Jan 2024 – Present)</span></h3>
-            <ul>
-              <li>Designed interactive experiments on <em>mode choice</em>, <em>en‑route diversion</em>, and <em>parking reservation</em>.</li>
-              <li>Built the experiment system, recruited participants, and prepared IRB/ethics documentation.</li>
-              <li>Conducted a preliminary experiment on mode choice with <em>carbon credits</em> at Zhejiang University.</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <h3>Distributed Cloud‑Native Macro Traffic Simulation Platform <span class="meta">(Sep 2021 – Dec 2023) — Alibaba Cloud</span></h3>
-            <ul>
-              <li>Developed a <strong>Ray</strong>‑based macro simulation platform to simulate <em>city‑scale</em> networks within minutes in parallel.</li>
-              <li>Designed models for <em>road‑network splitting</em> (Leuven algorithm), <em>calibration of road resistance</em> via computational graphs, and <em>capacity estimation</em> using random forests.</li>
-              <li>Built a <strong>GCN</strong>‑based spatio‑temporal representation of network topology and traffic distribution, achieving ~90% accuracy in short‑term flow/speed prediction.</li>
-              <li>Supported large events: Beijing Winter Olympics, Chengdu Universiade, Hangzhou Asian Games; evaluated road‑control scenarios.</li>
-              <li>Filed three patent applications based on this work.</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <h3>COVID‑19 Impact Analysis Platform <span class="meta">(Jan 2020 – May 2021)</span></h3>
-            <ul>
-              <li>Co‑developed the <a href="https://data.covid.umd.edu/" target="_blank" rel="noopener">COVID‑19 Impact Analysis Platform</a>.</li>
-              <li>Used mobile‑device location data to infer home/work CBGs and OD trips; applied multi‑level weighting for population representativeness.</li>
-              <li>Computed a Social Distancing Index (SDI) and documented quarantine fatigue toward the end of the pandemic.</li>
-              <li>Observed behavioral inertia in social distancing despite rising cases; published three papers from this work.</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <h3>Real‑Time Traffic Simulation & Travel State Prediction <span class="meta">(Feb 2019 – Jan 2020) — UMD NTC (ARPA‑E TRANSNET)</span></h3>
-            <ul>
-              <li>Designed a dynamic traffic assignment model to simulate millions of vehicles in real time in the DC metro area.</li>
-              <li>Modeled traveler decisions (mode, departure time, route) under utility maximization; aggregated to predict next‑period traffic, reaching ~85% accuracy vs. sensor counts.</li>
-              <li>Informed federal and Maryland state policy evaluation by comparing alternative costs and benefits.</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <h3>Incentrip: Incentivizing Congestion‑Reducing Travel Behaviors <span class="meta">(Mar 2017 – May 2019) — UMD NTC</span></h3>
-            <ul>
-              <li>Built a behavior model encouraging off‑peak departure, under‑utilized routes, and alternative modes; reduced peak‑hour travel time by ~6%.</li>
-              <li>Implemented the personalized rewards model in the Android app <em>Incentrip</em>.</li>
-              <li>Added push notifications for extreme weather/incidents using OpenWeather and INRIX Accidents APIs.</li>
-            </ul>
-          </div>
-        </section>
-
-        <section id="publications">
-          <h2>Publications</h2>
-          <h3 class="muted">Journal Papers</h3>
-          <ol>
-            <li>Xiong, C., Shahabi, M., <strong>Zhao, J.</strong>, Yin, Y., Zhou, X., Zhang, L. “An integrated and personalized traveler information and incentive scheme for energy‑efficient mobility systems”, <em>Transportation Research Part C</em>, 2019.</li>
-            <li>Lee, M., <strong>Zhao, J.</strong>, Sun, Q., Pan, Y., Zhou, W., Xiong, C., Zhang, L. “Human mobility trends during the early stage of the COVID‑19 pandemic in the United States”, <em>PLOS One</em>, 2020.</li>
-            <li><strong>Zhao, J.</strong>, Xiong, C., Zhang, L. “Analysis of Travel Behavioral Responses to Monetary Incentives — DC‑Baltimore Case Study Based on a Joint Revealed and Stated Preference Survey”, <em>Travel Behaviour and Society</em>, 2023 (revising).</li>
-          </ol>
-
-          <h3 class="muted">Conference Papers</h3>
-          <ol>
-            <li><strong>Zhao, J.</strong>, Xiong, C., Ji, Y., Zhang, L. “Analyzing Travel Behavior Responses under Personalized Incentives with Interpretable Economic Information”, TRB 99th Annual Meeting, 2020.</li>
-            <li><strong>Zhao, J.</strong>, Zhang, L. “Predicting Behavior Responses under Monetary Incentives by Deep Choice Model Using Pointer Networks”, ISETT, 2019.</li>
-            <li><strong>Zhao, J.</strong>, Xiong, C., Zhang, L. “A Joint Revealed and Stated Preference Analysis of Travel Behavioral Responses to Monetary Incentives”, TRB 97th Annual Meeting, 2018.</li>
-            <li><strong>Zhao, J.</strong>, Xiong, C., Yang, D., Liang, T., Zhang, L. “A Wide‑and‑Deep Learning Model of Travel Mode Detection”, ISETT, 2018.</li>
-          </ol>
-
-          <h3 class="muted">arXiv Papers</h3>
-          <ol>
-            <li><strong>Zhao, J.</strong>, Lee, M., Ghader, S., et al. “Quarantine Fatigue: first‑ever decrease in social distancing measures after the COVID‑19 pandemic outbreak before reopening United States”, arXiv preprint, 2020.</li>
-            <li>Ghader, S., <strong>Zhao, J.</strong>, Lee, M., Zhou, W., Zhao, G., Zhang, L. “Observed mobility behavior data reveal social distancing inertia”, arXiv preprint, 2020.</li>
-          </ol>
-        </section>
+    <section id="profile" class="profile">
+      <div class="headshot">
+        <img src="assets/headshot.jpg" alt="Portrait of Jun Zhao" />
       </div>
-    </div>
+      <div>
+        <h2 class="muted" style="margin:0 0 .25rem 0; border:0; padding:0;">Contact</h2>
+        <div class="contact-list">
+          <div>
+            <span class="label">Location</span>
+            Tucson, Arizona, USA
+          </div>
+          <div>
+            <span class="label">Mobile</span>
+            (+1) 520-278-8412
+          </div>
+          <div>
+            <span class="label">Email</span>
+            <a href="mailto:zhaojun@arizona.edu">zhaojun@arizona.edu</a>
+          </div>
+          <div>
+            <span class="label">LinkedIn</span>
+            <a href="https://linkedin.com/in/zhaojun" target="_blank" rel="noopener">linkedin.com/in/zhaojun</a>
+          </div>
+          <div>
+            <span class="label">Google Scholar</span>
+            <a href="https://scholar.google.com/citations?hl=en&pli=1&user=KJ0F-MMAAAAJ" target="_blank" rel="noopener">scholar.google.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I specialize in <strong>human–computer interaction experiments</strong>, <strong>traffic simulation</strong>, and <strong>data‑driven mobility analysis</strong>. My recent work includes <strong>agent‑based modeling</strong>, <strong>cloud‑native macroscopic simulation</strong>, and <strong>behavioral analytics</strong> leveraging large‑scale location‑based services (LBS) datasets.
+      </p>
+    </section>
+
+    <section id="work">
+      <h2>Work</h2>
+      <div class="grid">
+        <div class="meta">July 2024 – Present · Tucson, Arizona</div>
+        <div class="item">
+          <h3>Postdoctoral Researcher — University of Arizona</h3>
+          <div class="meta">Research Areas: Agent-based Model, Micromobility, Traffic Simulation</div>
+        </div>
+
+        <div class="meta">Jan 2024 – July 2024 · Hangzhou, China</div>
+        <div class="item">
+          <h3>Postdoctoral Researcher — Zhejiang University</h3>
+          <div class="meta">Research Areas: Human‑Computer Interactive Experiment, Agent‑based Model</div>
+        </div>
+
+        <div class="meta">Jul 2021 – Dec 2023 · Hangzhou, China</div>
+        <div class="item">
+          <h3>Senior Algorithm Engineer — Alibaba Cloud Computing Co. Ltd.</h3>
+          <div class="meta">Research Areas: Macroscopic Traffic Simulation, Computational Graph, LBS Data Analysis</div>
+        </div>
+
+        <div class="meta">Aug 2015 – May 2021 · College Park, MD</div>
+        <div class="item">
+          <h3>Research Assistant (Part‑time) — National Transportation Center, University of Maryland</h3>
+          <div class="meta">Research Areas: Discrete Choice Model, Human Mobility, Travel Mode & Purpose Detection</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="grid">
+        <div class="meta">Aug 2015 – May 2021 · College Park, MD</div>
+        <div class="item">
+          <h3>Ph.D., Transportation Engineering — University of Maryland</h3>
+          <div class="meta">GPA: 3.89/4.0 · Coursework: Applied Machine Learning; Discrete Choice Analysis; Computational Statistics</div>
+        </div>
+
+        <div class="meta">Sep 2012 – Jun 2015 · Shanghai, China</div>
+        <div class="item">
+          <h3>M.S., Management Science & Logistics — Tongji University</h3>
+          <div class="meta">GPA: 3.52/4.0 · Coursework: Probability & Statistics; Advanced Operations Research</div>
+        </div>
+
+        <div class="meta">Sep 2008 – Jun 2012 · Nanjing, China</div>
+        <div class="item">
+          <h3>B.S., Industrial Engineering — Nanjing University</h3>
+          <div class="meta">GPA: 3.50/4.0 · Coursework: Operations Research; Data Structures & Algorithms; Probability & Statistics</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <p> C++, Python, scikit‑learn, TensorFlow, PyTorch, R, SQL, Docker, Ray </p>
+    </section>
+
+    <section id="experience">
+      <h2>Projects & Experience</h2>
+
+      <div class="item">
+        <h3>Human‑Computer Interactive Experiment in Transportation <span class="meta">(Jan 2024 – Present)</span></h3>
+        <ul>
+          <li>Designed interactive experiments on <em>mode choice</em>, <em>en‑route diversion</em>, and <em>parking reservation</em>.</li>
+          <li>Built the experiment system, recruited participants, and prepared IRB/ethics documentation.</li>
+          <li>Conducted a preliminary experiment on mode choice with <em>carbon credits</em> at Zhejiang University.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <h3>Distributed Cloud‑Native Macro Traffic Simulation Platform <span class="meta">(Sep 2021 – Dec 2023) — Alibaba Cloud</span></h3>
+        <ul>
+          <li>Developed a <strong>Ray</strong>‑based macro simulation platform to simulate <em>city‑scale</em> networks within minutes in parallel.</li>
+          <li>Designed models for <em>road‑network splitting</em> (Leuven algorithm), <em>calibration of road resistance</em> via computational graphs, and <em>capacity estimation</em> using random forests.</li>
+          <li>Built a <strong>GCN</strong>‑based spatio‑temporal representation of network topology and traffic distribution, achieving ~90% accuracy in short‑term flow/speed prediction.</li>
+          <li>Supported large events: Beijing Winter Olympics, Chengdu Universiade, Hangzhou Asian Games; evaluated road‑control scenarios.</li>
+          <li>Filed three patent applications based on this work.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <h3>COVID‑19 Impact Analysis Platform <span class="meta">(Jan 2020 – May 2021)</span></h3>
+        <ul>
+          <li>Co‑developed the <a href="https://data.covid.umd.edu/" target="_blank" rel="noopener">COVID‑19 Impact Analysis Platform</a>.</li>
+          <li>Used mobile‑device location data to infer home/work CBGs and OD trips; applied multi‑level weighting for population representativeness.</li>
+          <li>Computed a Social Distancing Index (SDI) and documented quarantine fatigue toward the end of the pandemic.</li>
+          <li>Observed behavioral inertia in social distancing despite rising cases; published three papers from this work.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <h3>Real‑Time Traffic Simulation & Travel State Prediction <span class="meta">(Feb 2019 – Jan 2020) — UMD NTC (ARPA‑E TRANSNET)</span></h3>
+        <ul>
+          <li>Designed a dynamic traffic assignment model to simulate millions of vehicles in real time in the DC metro area.</li>
+          <li>Modeled traveler decisions (mode, departure time, route) under utility maximization; aggregated to predict next‑period traffic, reaching ~85% accuracy vs. sensor counts.</li>
+          <li>Informed federal and Maryland state policy evaluation by comparing alternative costs and benefits.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <h3>Incentrip: Incentivizing Congestion‑Reducing Travel Behaviors <span class="meta">(Mar 2017 – May 2019) — UMD NTC</span></h3>
+        <ul>
+          <li>Built a behavior model encouraging off‑peak departure, under‑utilized routes, and alternative modes; reduced peak‑hour travel time by ~6%.</li>
+          <li>Implemented the personalized rewards model in the Android app <em>Incentrip</em>.</li>
+          <li>Added push notifications for extreme weather/incidents using OpenWeather and INRIX Accidents APIs.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <h3 class="muted">Journal Papers</h3>
+      <ol>
+        <li>Xiong, C., Shahabi, M., <strong>Zhao, J.</strong>, Yin, Y., Zhou, X., Zhang, L. “An integrated and personalized traveler information and incentive scheme for energy‑efficient mobility systems”, <em>Transportation Research Part C</em>, 2019.</li>
+        <li>Lee, M., <strong>Zhao, J.</strong>, Sun, Q., Pan, Y., Zhou, W., Xiong, C., Zhang, L. “Human mobility trends during the early stage of the COVID‑19 pandemic in the United States”, <em>PLOS One</em>, 2020.</li>
+        <li><strong>Zhao, J.</strong>, Xiong, C., Zhang, L. “Analysis of Travel Behavioral Responses to Monetary Incentives — DC‑Baltimore Case Study Based on a Joint Revealed and Stated Preference Survey”, <em>Travel Behaviour and Society</em>, 2023 (revising).</li>
+      </ol>
+
+      <h3 class="muted">Conference Papers</h3>
+      <ol>
+        <li><strong>Zhao, J.</strong>, Xiong, C., Ji, Y., Zhang, L. “Analyzing Travel Behavior Responses under Personalized Incentives with Interpretable Economic Information”, TRB 99th Annual Meeting, 2020.</li>
+        <li><strong>Zhao, J.</strong>, Zhang, L. “Predicting Behavior Responses under Monetary Incentives by Deep Choice Model Using Pointer Networks”, ISETT, 2019.</li>
+        <li><strong>Zhao, J.</strong>, Xiong, C., Zhang, L. “A Joint Revealed and Stated Preference Analysis of Travel Behavioral Responses to Monetary Incentives”, TRB 97th Annual Meeting, 2018.</li>
+        <li><strong>Zhao, J.</strong>, Xiong, C., Yang, D., Liang, T., Zhang, L. “A Wide‑and‑Deep Learning Model of Travel Mode Detection”, ISETT, 2018.</li>
+      </ol>
+
+      <h3 class="muted">arXiv Papers</h3>
+      <ol>
+        <li><strong>Zhao, J.</strong>, Lee, M., Ghader, S., et al. “Quarantine Fatigue: first‑ever decrease in social distancing measures after the COVID‑19 pandemic outbreak before reopening United States”, arXiv preprint, 2020.</li>
+        <li>Ghader, S., <strong>Zhao, J.</strong>, Lee, M., Zhou, W., Zhao, G., Zhang, L. “Observed mobility behavior data reveal social distancing inertia”, arXiv preprint, 2020.</li>
+      </ol>
+    </section>
   </main>
 
   <footer>© <span id="y"></span> Jun Zhao</footer>
