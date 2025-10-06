@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+  --fg:#1f1f1f; --muted:#666; --link:#0b57d0; --white:#fff; --accent:#eee; --red:#990000; --blue:#b7e0ed; --yellow:#fbec5d; --yellowlink:#fff9b3; --gray:#BEBEBE; --orange:#ff9933;
+}
+
+/* Defines containers, backgrounds, and properties of the body*/
+.base{
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* let the body span the full viewport height */
+}
+
+.base2{
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* let the body span the full viewport height */
+    background: url("assets/wallpaper3.jpg") no-repeat center center;
+    background-size: cover;   /* scale to cover the whole screen */
+    background-attachment: fixed;
+}
+
+.base3{
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* let the body span the full viewport height */
+    background: url("assets/wallpaper3.jpg") no-repeat center center;
+    background-size: cover;   /* scale to cover the whole screen */
+    background-attachment: fixed;
+}
+
+.container1{
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 2.25rem 1rem 2.25rem;
+    background: url("assets/wallpaper3.jpg") no-repeat center center;
+    background-position: top center;
+    background-size: cover;   /* scale to cover the whole screen */
+    background-attachment: fixed;
+}
+
+.container2{
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 2.25rem 1rem 1rem;
+}
+
+.header{
+    padding: 2.25rem 1rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+    background-color: rgba(80,80,80,0.20);
+    backdrop-filter: blur(20px);
+    background-clip: border-box;
+}
+
+
+
+.body1{
+    padding: 1.5rem 1rem 1.5rem;
+    max-width: 1120px;
+    margin: 0 auto;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+    background-color: rgba(80,80,80,0.25);
+    backdrop-filter: blur(7px);
+    background-clip: border-box;
+}
+
+.body2{
+    padding: 1rem 1rem 1rem;
+    position: relative;
+    max-width: 1120px;
+    margin: 0 auto;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+    background-color: rgba(80,80,80,0.25);
+    backdrop-filter: blur(20px);
+    background-clip: border-box;
+}
+
+
+/*The following defines the content properties of actual content in the website.*/
+h1{margin:0 0 .25rem 0; max-width: 1120px; font-size: clamp(2.55rem, 3.5vw, 3.25rem); color:var(--fg);display: flex; justify-content: center;}
+
+h2{display:flex; justify-content: center; font-size: clamp(1.55rem, 2vw, 2.5rem);; border-bottom: 2px solid var(--accent); padding-bottom:.35rem;}
+
+h3{margin:.25rem 0; font-size: 1.25rem;}
+
+h4{max-width: 1000px; margin: 0 auto; font-size: 1.45rem; border-bottom: 2px solid var(--accent); padding-bottom:.35rem;display:flex; justify-content: center; }
+
+h5{text-align: center; margin:.1rem 0; font-size: 1.1rem; color: var(--yellow);}
+
+h6{text-align: center; margin:.1rem 0; font-size: 1.25rem; color: var(--yellow);}
+
+.h5subtitle{display: block; text-align: center; margin:.1rem 0; font-size: 0.9rem; color: var(--white);}
+
+@media (max-width:370px){
+    h1{font-size: 2.1rem;}
+    h2{font-size:1.5rem;}
+}
+
+p{margin:.25rem 0 0 0; color: var(--white);text-align: center;}
+
+p2{margin:.25rem 0 0 0; color: var(--white);}
+
+alink{margin:.25rem 0 0 0; color: var(--white);}
+
+alinkdark{margin:.25rem 0 0 0; color: var(--fg);}
+
+b{margin:.25rem 0 0 0; color: var(--yellow);}
+
+footer{padding:1rem; color:var(--fg); text-align:center;}
+
+ol{ margin-left: 1rem;}
+
+ul{ margin-left: 1rem;}
+
+nav{padding: .5rem 1rem; display:flex; flex-wrap:wrap; gap:.75rem; position: sticky; top:0; justify-content: center;}
+
+nav a{
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: 500;
+    margin-right:.5rem;
+    padding: 0.3rem 0.6rem 0.3rem;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+    background-color: rgba(55,55,55,0.15);
+    backdrop-filter: blur(25px);
+    background-clip: border-box;
+}
+
+/*The following defines the various style classes used throughout the website.*/
+.meta{
+    font-size:.95rem;
+    color:var(--white);
+}
+
+.profile{
+    display:grid; grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items:center;
+    padding: 1rem 1rem 2rem;
+    margin: 0 auto;
+}
+
+.about{
+  margin: 1.25rem 0;
+  padding: 1rem 1.15rem;
+  background: #fff;
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  display:grid; grid-template-columns: 180px 1fr; gap: 1.25rem; align-items:center; padding: 1rem 0 0;
+}
+
+.spacerarrow{
+    position: relative;
+    height: 3rem;
+}
+
+.spacer{
+    position: relative;
+    height: 2rem;
+}
+
+.spacersmall{
+    position: relative;
+    height: 1rem;
+}
+
+.hline{display:flex; justify-content: center; font-size: clamp(1.55rem, 2vw, 2.5rem); border-bottom: 2px solid var(--fg); padding-bottom:.35rem;}
+
+.label{
+    font-weight:600;
+    display:flex;
+    justify-content:center;
+}
+
+
+.info{
+    display:flex;
+    justify-content:center;
+    color: var(--white)
+}
+
+
+.headshot{
+    margin: 0;
+    text-align:center;
+}
+
+.headshot img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid var(--accent);
+}
+
+.list{
+    padding-left: 15px;
+}
+
+.experience-container{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    max-width: 900px;
+    gap: 1rem;
+    align-items:center;
+    padding: 1rem 0.5rem 1rem;
+    margin: 0 auto;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+    background-color: rgba(55,55,55,0.1);
+    backdrop-filter: blur(20px);
+    background-clip: border-box;
+}
+
+
+.experience-container img{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid var(--accent);
+    margin: 0 auto;
+}
+
+.contact-list{
+    padding-top: 1rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:.5rem 1rem;
+}
+
+.experience-container-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    border-bottom: 13px solid white;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.spacerarrow::after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 90%;
+    background: #fff;
+    top: 5px;
+    left: 50%;
+    margin-left: -2.5px;
+    z-index: -1;
+}
+
+
+.grid-education{
+    grid-template-columns: 220px 1fr;
+}
+
+.grid-publications {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.publications-column {
+    align-items:center;
+    padding: 0.5rem 0.5rem 0.5rem;
+    margin: 0 auto;
+    max-width: 175px;
+    border: 2px solid var(--white);
+    border-radius: 50px;
+    background-color: rgba(55,55,55,0.1);
+    backdrop-filter: blur(20px);
+    background-clip: border-box;
+}
+
+.grid-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.pubblockL{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    align-items: center;
+}
+
+.pubblockL img{
+    display: block;
+    margin: 0 auto;
+    width: 100%
+    max-width:450px;
+    max-height:400px;
+    border:2px solid var(--accent);
+}
+
+.pubblockR{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "image text";
+    gap: 25px;
+    align-items: center;
+
+}
+
+.pubblockRtext{
+    grid-area: text;
+}
+
+.pubblockRinfo{
+    grid-area: info;
+}
+
+
+.pubblockR img{
+    display: block;
+    margin: 0 auto;
+    width: 100%
+    max-width:450px;
+    max-height:400px;
+    border:2px solid var(--accent);
+    grid-area: image;
+}
+
+.projects-column {
+    display: grid;
+    place-items: center;
+    align-items:center;
+    padding: 1rem 1rem 1rem;
+    margin: 0 auto;
+    min-height: 56px;
+    border: 2px solid var(--white);
+    border-radius: 50px;
+    background-color: rgba(55,55,55,0.1);
+    backdrop-filter: blur(20px);
+    background-clip: border-box;
+    text-align: center;
+}
+
+.education-container{
+    display:grid;
+    grid-template-columns: 1fr 2.5fr;
+    max-width: 900px;
+    align-items:center;
+    margin: 0 auto;
+    padding: 1rem 0.5rem 1rem;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+    background-color: rgba(55,55,55,0.1);
+    backdrop-filter: blur(20px);
+    background-clip: border-box;
+}
+
+
+.education-container img{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid var(--accent);
+    margin: 0 auto;
+}
+
+
+/* Reduces grids of columns to 1 column when screen is narrow*/
+@media (max-width:850px){
+  .profile{ grid-template-columns: 1fr; text-align:center; }
+  .contact-list{ grid-template-columns: 1fr; }
+  .education-container{ grid-template-columns: 1fr; gap: 1rem; text-align:center;}
+  .experience-container{ grid-template-columns: 1fr; text-align:center; }
+  .grid-publications{ grid-template-columns: 1fr; text-align:center; }
+  .grid-projects{ grid-template-columns: 1fr; text-align:center; padding:0.5rem 0.5rem 0.5rem; }
+  .grid-projects > :last-child:nth-child(odd) {
+    grid-column: auto
+    justify-self: stretch;
+    width: 100%;
+    }
+  .pubblockR{grid-template-areas: "text" "image"; grid-template-columns: 1fr;}
+  .pubblockL{grid-template-columns: 1fr; }
+
+  /* More breathing room on phones */
+  section{ margin: 1rem 0; padding: 1rem; }
+  }
+
+
+  /* Make images responsive by default */
+  img{ max-width: 100%; height: auto; }
+  ul{margin:.25rem 0 .5rem 1.25rem;}
