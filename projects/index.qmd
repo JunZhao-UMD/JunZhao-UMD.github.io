@@ -1,8 +1,7 @@
 ---
 title: "Projects & Experience"
 toc: true
-toc-location: right
-toc-title: Sections
+toc-location: left
 ---
 
 ## Project Investigator or Co-PI {#pi}

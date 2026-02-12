@@ -20,3 +20,17 @@ $link-color: #6ea8fe;
 .about-image img {
   border-color: #444;
 }
+
+#TOC li a:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+#TOC li a.active,
+#TOC li a.nav-link.active {
+  background: none;
+}
+
+#TOC li a.active:hover,
+#TOC li a.nav-link.active:hover {
+  background: rgba(255, 255, 255, 0.08);
+}

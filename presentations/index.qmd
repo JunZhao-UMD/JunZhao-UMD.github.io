@@ -1,13 +1,12 @@
 ---
 title: "Presentations & Posters"
 toc: true
-toc-location: right
-toc-title: Type
+toc-location: left
 ---
 
 ^+^Presenter &nbsp;&nbsp; [Underlined]{.underline}: Co-advised Student
 
-## Conference & Annual Meeting Presentations {#conferences}
+## Conference & Annual Meeting Presentations {#conf-presentations}
 
 :::: {.pub-entry}
 ::: {.pub-img}

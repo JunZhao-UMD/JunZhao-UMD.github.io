@@ -1,8 +1,7 @@
 ---
 title: "Publications"
 toc: true
-toc-location: right
-toc-title: Type
+toc-location: left
 ---
 
 ^+^Presenter &nbsp;&nbsp; [Underlined]{.underline}: Co-advised Student &nbsp;&nbsp; \*Corresponding Author

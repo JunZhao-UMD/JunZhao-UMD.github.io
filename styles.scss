@@ -87,10 +87,110 @@ $link-color: #0b57d0;
   }
 }
 
+/* About page: narrower left column */
+.quarto-about-trestles .about-entity {
+  flex: 0 0 225px !important;
+}
+
+.quarto-about-trestles .about-entity .subtitle {
+  font-size: 0.8em;
+}
+
+/* About page: vertical links */
+.quarto-about-trestles .about-entity .about-links {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 0.5rem;
+}
+
+.quarto-about-trestles .about-entity .about-links .about-link {
+  text-align: left !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+}
+
 /* About page image */
 .about-image img {
   border: 3px solid #eee;
 }
+
+/* Left sidebar TOC styling */
+#TOC {
+  padding: 0.5rem;
+}
+
+/* Hide the TOC title */
+#TOC #toc-title {
+  display: none;
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#TOC li {
+  margin-bottom: 0.25rem;
+}
+
+#TOC li a {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.92em;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+#TOC li a:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+/* No persistent active shade — only show on hover */
+#TOC li a.active,
+#TOC li a.nav-link.active {
+  background: none;
+  font-weight: 600;
+}
+
+#TOC li a.active:hover,
+#TOC li a.nav-link.active:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+/* Icons for TOC items via ::before pseudo-elements */
+#TOC li a::before {
+  font-family: "bootstrap-icons";
+  font-size: 1.1em;
+  flex-shrink: 0;
+  width: 1.2em;
+  text-align: center;
+}
+
+/* Projects page icons */
+#TOC li a[href="#pi"]::before { content: "\f28b"; }           /* clipboard-check */
+#TOC li a[href="#key-researcher"]::before { content: "\f52a"; } /* search */
+#TOC li a[href="#proposals"]::before { content: "\f4ca"; }     /* pencil-square */
+#TOC li a[href="#tech-support"]::before { content: "\f621"; }  /* wrench */
+#TOC li a[href="#reports"]::before { content: "\f3b9"; }       /* file-text */
+
+/* Publications page icons */
+#TOC li a[href="#journals"]::before { content: "\f444"; }      /* journal-text */
+#TOC li a[href="#conferences"]::before { content: "\f4d0"; }   /* people */
+#TOC li a[href="#preprints"]::before { content: "\f38b"; }     /* file-earmark-text */
+
+/* Presentations page icons */
+#TOC li a[href="#conf-presentations"]::before { content: "\f310"; } /* easel */
+#TOC li a[href="#invited"]::before { content: "\f490"; }       /* mic */
+#TOC li a[href="#posters"]::before { content: "\f42a"; }       /* image */
+
+/* Hide icons on sub-items (h3 level TOC entries) */
+#TOC li li a::before { content: none !important; }
 
 /* Clean up table borders for contact table */
 .quarto-about-trestles .about-contents table {

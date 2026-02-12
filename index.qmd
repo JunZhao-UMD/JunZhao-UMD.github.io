@@ -1,12 +1,16 @@
 ---
 title: "Jun Zhao, Ph.D."
+subtitle: "Travel Behavior · Traffic Simulation · Shared Mobility · AI Decision-Making"
 image: static/img/headshot.jpg
 toc: false
 about:
   template: trestles
   image-shape: round
-  image-width: 200px
+  image-width: 130px
   links:
+    - icon: geo-alt-fill
+      text: Tucson, AZ
+      href: https://maps.app.goo.gl/tucson
     - icon: envelope
       text: Email
       href: mailto:zhaojun@arizona.edu
@@ -22,7 +26,11 @@ Postdoctoral Research Associate at the [Center for Applied Transportation Scienc
 
 Developing and applying data-driven and simulation-based frameworks to analyze how emerging mobility systems---including shared mobility, automation, electrification, and AI-assisted decision-making---affect travel behavior, transportation system performance, the environment, and broader social outcomes.
 
-![Research Roadmap](static/img/researchroadmap.png){fig-align="center" style="max-height:500px; margin-top:1.5em;"}
+::: {style="text-align:center; margin-top:1.5em;"}
+**Research Roadmap**
+
+![](static/img/researchroadmap.png){fig-align="center" style="max-height:500px;"}
+:::
 
 ## Work Experience
 
