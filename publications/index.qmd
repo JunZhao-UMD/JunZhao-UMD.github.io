@@ -1,0 +1,109 @@
+---
+title: "Publications"
+toc: true
+toc-location: right
+toc-title: Type
+---
+
+^+^Presenter &nbsp;&nbsp; [Underlined]{.underline}: Co-advised Student &nbsp;&nbsp; \*Corresponding Author
+
+## Journal Papers {#journals}
+
+:::: {.pub-entry}
+::: {.pub-img}
+![](../static/img/fx1_lrg.jpg)
+:::
+::: {.pub-text}
+1. Hu, C., Wang, K., Wang, L., **Zhao, J.**, Zhu, Z., Yang, H., Ding, H., He, G., Wang, Z. (2025). Downward Comparisons Enhance Carbon Credit Policy Sustainability: Lab Evidence. *iScience*, Journal Pre-proof. [[Link]](https://doi.org/10.1016/j.isci.2025.114050){target="_blank"}
+
+    The study tests a carbon Credit-Charge-cum-Reward (CCR) policy using 270 participants. Actual traveler behavior deviates from rational theoretical predictions showing reduced fiscal responsibility, especially among high-value-of-time users. Three low-cost behavioral "nudges" are evaluated. Only the downward-comparison feedback significantly increases driving, improves stability, and generates the highest fiscal revenue with modest emission increases.
+:::
+::::
+
+---
+
+:::: {.pub-entry .pub-entry-reverse}
+::: {.pub-text}
+2. [Wang, L.]{.underline}, Jiang, Z., [Hu, C.]{.underline}, **Zhao, J.**, Zhu, Z.*, Chen, X.*, & Lee, D. H. (2025). Comparing AI and human decision-making mechanisms in daily collaborative experiments. *iScience*, 28(6). [[Link]](https://doi.org/10.1016/j.isci.2025.112711){target="_blank"}
+
+    This study tests performance of AI in daily decision-making, comparing humans, LLMs, and reinforcement learning (RL) in a multi-day commute decision-making game. Results show that LLMs display human-like learning from experience and achieve convergence in individual decisions but struggle in collaboration, showing limited awareness of others' choices.
+:::
+::: {.pub-img}
+![](../static/img/JP1.jpg)
+:::
+::::
+
+---
+
+:::: {.pub-entry}
+::: {.pub-img}
+![](../static/img/JP2.png)
+:::
+::: {.pub-text}
+3. Lee, M., **Zhao, J.**, Sun, Q., Pan, Y., Zhou, W., Xiong, C., Zhang, L.* (2020). Human mobility trends during the early stage of the COVID-19 pandemic in the United States. *PloS One*, 15(1). [[Link]](https://doi.org/10.1371/journal.pone.0241468){target="_blank"}
+
+    This study examines U.S. mobility trends from January to early April 2020 to assess public responses to COVID-19. Using aggregated mobile device data, it identifies spatial, temporal, and demographic variations in movement and teleworking. Mobility declined across all metrics nationwide after the emergency declaration, with more people staying home even before mandates.
+:::
+::::
+
+---
+
+:::: {.pub-entry .pub-entry-reverse}
+::: {.pub-text}
+4. Xiong, C., Shahabi, M., **Zhao, J.**, Yin, Y., Zhou, X., Zhang, L.* (2019). An integrated and personalized traveler information and incentive scheme for energy-efficient mobility systems. *Transportation Research Part C: Emerging Technologies*, 113, 57-73. [[Link]](https://doi.org/10.1016/j.trpro.2019.05.010){target="_blank"}
+
+    This paper develops an integrated and personalized traveler information and incentive scheme to incentivize more energy-efficient travel and mobility decisions. A case study in the Washington D.C. and Baltimore regions demonstrates the system's effectiveness, achieving significant energy savings at a system level.
+:::
+::: {.pub-img}
+![](../static/img/JP3.png)
+:::
+::::
+
+
+## Conference Papers {#conferences}
+
+1. **Zhao, J.**, Xiong, C., Ji, Y., Zhang, L. (2020). Analyzing Travel Behavior Responses under Personalized Incentives with Interpretable Economic Information. *Transportation Research Board (TRB) 2020 Annual Meeting*. [[Link]](https://mti.umd.edu/news/story/umd-presents-new-research-at-trb-annual-meeting){target="_blank"}
+
+---
+
+:::: {.pub-entry}
+::: {.pub-img}
+[![](../static/img/joint-revealed.png)](../static/pdfs/Jun_2018_trb_incentives_poster_121917.pdf){target="_blank"}
+
+[Click for full poster!]{.poster-link}
+:::
+::: {.pub-text}
+2. **Zhao, J.**, Xiong, C., Zhang, L. (2018). A Joint Revealed and Stated Preference Analysis of Travel Behavioral Responses to Monetary Incentives. *Transportation Research Board (TRB) 2018 Annual Meeting*. [[Link]](https://trid.trb.org/view/1496286){target="_blank"}
+:::
+::::
+
+---
+
+3. **Zhao, J.**, Xiong, C., Yang, D., Liang, T., Zhang, L. (2018). A Wide-and-Deep Learning Model of Travel Mode Detection. *International Symposium on Emerging Trends in Transportation (ISETT)*. [[Link]](http://cota-home.org/Docs/Conference/ISETT_Proceedings/37.pdf){target="_blank"}
+
+
+## Preprint Papers {#preprints}
+
+:::: {.pub-entry .pub-entry-reverse}
+::: {.pub-text}
+1. **Zhao, J.**, Lee, M., Ghader, S., et al. (2020). Quarantine Fatigue: first-ever decrease in social distancing measures after the COVID-19 pandemic outbreak before reopening United States. *arXiv preprint*. [[Link]](https://arxiv.org/abs/2006.03716){target="_blank"}
+
+    This study analyzed U.S. mobility changes during COVID-19 using an integrated data panel and the Social Distancing Index (SDI). Results revealed a plateau in early April followed by a universal SDI decline, more trips, and fewer people staying home---termed "quarantine fatigue." The phenomenon began around April 15, before official reopenings, indicating premature relaxation of distancing.
+:::
+::: {.pub-img}
+![](../static/img/PPP1.png)
+:::
+::::
+
+---
+
+:::: {.pub-entry}
+::: {.pub-img}
+![](../static/img/PPP2.png)
+:::
+::: {.pub-text}
+2. Ghader, S., **Zhao, J.**, Lee, M., Zhou, W., Zhao, G., Zhang, L. (2020). Observed mobility behavior data reveal social distancing inertia. *arXiv preprint*. [[Link]](https://arxiv.org/abs/2004.14748){target="_blank"}
+
+    This study used integrated location, COVID-19, and census data to examine the pandemic's impact on U.S. mobility. It identified a "social distancing inertia," where mobility metrics improved voluntarily after initial COVID-19 cases but plateaued within two weeks despite rising infections. This indicates a natural behavioral limit to social distancing.
+:::
+::::

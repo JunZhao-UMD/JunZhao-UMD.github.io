@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - static/**
+
+website:
+  title: "Jun Zhao"
+  description: >
+    Jun Zhao -- Postdoctoral Researcher. Research in data-driven
+    transportation systems, traffic simulation, and AI-assisted
+    decision-making.
+  site-url: https://junzhao-umd.github.io
+  favicon: static/img/headshot.jpg
+  open-graph: true
+
+  navbar:
+    title: "Jun Zhao, Ph.D."
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Projects
+        href: projects/index.qmd
+      - text: Publications
+        href: publications/index.qmd
+      - text: Presentations
+        href: presentations/index.qmd
+    right:
+      - icon: envelope
+        href: mailto:zhaojun@arizona.edu
+        aria-label: Email
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jun-zhao-ua
+        aria-label: LinkedIn
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?hl=en&pli=1&user=KJ0F-MMAAAAJ
+        aria-label: Google Scholar
+
+  search:
+    location: navbar
+    type: overlay
+
+  page-footer:
+    center: "&copy; 2025 Jun Zhao"
+
+format:
+  html:
+    theme:
+      light: [flatly, styles.scss]
+      dark: [darkly, styles-dark.scss]
+    toc: true
+    page-layout: full
+    mainfont: "Inter, system-ui, -apple-system, 'Segoe UI', sans-serif"

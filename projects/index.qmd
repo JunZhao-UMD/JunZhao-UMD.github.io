@@ -1,0 +1,68 @@
+---
+title: "Projects & Experience"
+toc: true
+toc-location: right
+toc-title: Sections
+---
+
+## Project Investigator or Co-PI {#pi}
+
+- Wu, Y. (PI), **Zhao, J. (PM of Phase I, Co-PI of Phase II)**, & Tsai, J. (GT, External Co-PI). AI-Enabled Traffic Asset Management. *Pima County Department of Transportation*, 07/01/2024--06/30/2026, \$194,991 (Phase I) + \$80,000 (Phase II).
+
+    The video below shows an example of a sign annotation video related to the AI-Enabled Project. AI models were used to initially annotate signs for identification and text recognition, with annotations edited to confirm accuracy and train model improvements.
+
+    <video controls loop style="max-width:550px; width:100%; border-radius:8px; margin:1em 0;">
+    <source src="../static/img/sign_recognition_1.mp4" type="video/mp4">
+    </video>
+
+---
+
+- Shang, M. (PI), **Zhao, J. (Co-PI)**, Wu, Y. (Co-PI), & Zhao, J. (ASU, External Co-PI). SPR-798: Statewide Pavement Marking Assessment for Driver-Assist Vehicle Technologies. *Arizona Transportation Institute, Arizona Department of Transportation*, 09/01/2025--10/31/2026, \$125,000. [[Link]](https://azti.arizona.edu/spr-798){target="_blank"}
+
+
+## Key Researcher {#key-researcher}
+
+### 2024 -- Present
+
+- Shang, M. (PI), Wu, Y. (Co-PI), & **Zhao, J. (Key Researcher)**. SPR-792: State of the Practice of a Data Management Office Within DOTs. *Arizona Transportation Institute, Arizona Department of Transportation*, 08/12/2024 -- Present, \$55,000. [[Link]](https://azti.arizona.edu/research/spr-792){target="_blank"}
+
+- Yang, B. (PI), Bernal, S. (Co-PI), Engineer, A. (Co-PI), Kokroko, K. (Co-PI), Li, S. (Co-PI), Wu, Y. (Co-PI), Shamshiripour, A. (Co-PI), Cabrera, M. (Co-PI), Van Dyke, M. (Co-PI), Pocheptsova, A. (Co-PI), Li, M. (Co-PI), & **Zhao, J. (Key Researcher)**. South32 Hermosa Project Phase I --- Asset Inventory, Gap Analysis, and Innovative Pathways. *South32, University of Arizona*, 11/01/2024 -- 09/30/2025, \$336,952. [[Link]](https://www.yaojan.org/research-projects-datasets/south32-hermosa-project-phase-1%3A-asset-inventory%2C-gap-analysis%2C-and-innovative-pathways){target="_blank"}
+
+- Lim, C. (PI), Shang, M. (Co-PI), et al. **Zhao, J. (Key Researcher)**. Impact of Transportation Electrification on Air Quality and Health in Arizona. *University of Arizona, Technology and Research Initiative Fund (TRIF)*, 08/2024 -- 09/2025, \$100,000.
+
+- Wu, Y. (PI), Shamshiripour, A. (Co-PI), & **Zhao, J. (Key Researcher)**. Leveraging Existing Data Sources to Obtain Performance Measures for a Multi-modal Transportation System. *Pima Association of Governments*, 11/01/2023 -- 04/30/2025, \$176,570. [[Link]](https://www.yaojan.org/research-projects-datasets/optimizing-traffic-signals-using-multi-source-data%3A-phase-8){target="_blank"}
+
+- Ryan, A. (PI), Hurwitz, D. (Co-PI), et al. **Zhao, J. (Key Researcher)**. A Thoughtful Approach to the Integration of Equity in Traffic Safety. *AAA Foundation for Traffic Safety*, 10/01/2023 -- 03/30/2025, \$461,000. [[Link]](https://aaafoundation.org/examining-equity-in-traffic-safety-a-national-perspective-and-case-studies-in-several-states/){target="_blank"}
+
+### Before 2024
+
+- Zhang, L. (PI), Pack, M. (Co-PI), Darzi, A. (PM), Xiong, C., Yang, M., Ji, Y., Tang, C., et al. **Zhao, J. (Key Researcher)**. University of Maryland COVID-19 Impact Analysis Platform. *Maryland Transportation Institute (MTI), Center for Advanced Transportation Technology Laboratory (CATT Lab)*, 2020 -- 2021. [[Link]](https://data.covid.umd.edu/){target="_blank"}
+
+- Zhang, L. (PI), Xiong, C., Ji, Y., et al. **Zhao, J. (Key Researcher)**. "IncenTrip" Smartphone App Using Personalized Incentives to Reduce Congestion, Energy Use, and Emissions. *Maryland Transportation Institute, University of Maryland*, 2019 -- 2020. [[Link]](https://incentrip.org/){target="_blank"}
+
+- Zhang, L. (PI), Rouphail, N. (Co-PI), Zhou, X. (Co-PI), Yin, Y. (Co-PI), et al. **Zhao, J. (Key Researcher)**. Integrated, Personalized, Real-time Traveler Information and Incentive (iPretii) Technology. *U.S. Department of Energy ARPA-E (TRANSNET Program)*, 2015 -- 2019, \$4.5 Million. [[Link]](https://eng.umd.edu/news/story/umd-national-transportation-center-awarded-45-million-department-of-energy-grant){target="_blank"}
+
+- Zhang, L. (PI), Xiong, C. (Key Researcher), **Zhao, J. (Key Researcher)**. Maryland Integrated Travel Analysis Modeling System (MITAMS). *Maryland State Highway Administration*, 2015 -- 2016.
+
+
+## Assisted in Proposal Writing {#proposals}
+
+- Lim, C. (PI), Shang, M. (Co-PI), Wu, Y. (Co-PI), & **Zhao, J. (Co-Author)**. A Data-Driven Framework to Link Mining Activities, Air Quality, and Cardiorespiratory Health. *Office of Research and Partnerships (ORP), University of Arizona*, Submitted 2025.
+
+- Lim, C. (PI), Shang, M. (Co-PI), Wu, Y. (Co-PI), & **Zhao, J. (Co-Author)**. A Data-Driven Framework to Link Mining Activities, Air Quality, and Cardiorespiratory Health. *NIH Research Project Grant: R01*, to submit 10/2025.
+
+- Ryan, A. (PI), Pudasaini, P. (Co-Author), & **Zhao, J. (Co-Author)**. AI-Driven Pavement Marking Visibility Assessment Tool. *NCHRP IDEA*, Submitted 2025.
+
+
+## Technical Support Research {#tech-support}
+
+- **Zhao, J. (PM, UA CATS)**, Sweet, J. (PM, PCDOT). Feasibility Study for Plan Set Review with LLM. *Pima County Department of Transportation*, 05/2025 -- 08/2025.
+
+- **Zhao, J. (PM, UA CATS)**, Hendrix, M. (PM, PCDOT). Review of Accessible Pedestrian Signal (APS) Prioritization. *Pima County Department of Transportation*, 08/2025 -- 11/2025.
+
+
+## Project Reports {#reports}
+
+- **PAG (Pima Association of Governments) Phase III** --- Leveraging Existing Data Sources to Obtain Performance Measures for a Multi-modal Transportation System, Sep 2025. [in progress]
+
+- **Zhao, J.**, Pan, Y., Xiong, C., & Zhang, L. (2016). Metro SafeTrack Impact on Individual Travel Behavior & Regional Traffic Conditions. *National Transportation Center, University of Maryland*. [[Volume 1]](https://eng.umd.edu/sites/clark.umd.edu/files/NTC-Vol1Issue1.pdf){target="_blank"} [[Volume 2]](https://eng.umd.edu/sites/clark.umd.edu/files/NTC-Vol2Issue1.pdf){target="_blank"}

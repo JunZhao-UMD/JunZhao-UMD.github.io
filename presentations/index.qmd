@@ -1,0 +1,58 @@
+---
+title: "Presentations & Posters"
+toc: true
+toc-location: right
+toc-title: Type
+---
+
+^+^Presenter &nbsp;&nbsp; [Underlined]{.underline}: Co-advised Student
+
+## Conference & Annual Meeting Presentations {#conferences}
+
+:::: {.pub-entry}
+::: {.pub-img}
+[![](../static/img/evaluating.svg)](../static/pdfs/TRB2025_CCR_Poster.pdf){target="_blank"}
+
+[Click for full poster!]{.poster-link}
+:::
+::: {.pub-text}
+[Jeon, Y.]{.underline}^+^, **Zhao, J.**, Zhang, X., Shamshiripour, A., & Wu, Y. (2025). Evaluating the Impact of Pricing Plans on Bike-Sharing Usage in Mid-Sized City of the United States. *ASCE International Conference on Transportation and Development (ICTD) 2025*.
+:::
+::::
+
+---
+
+**Zhao, J.**^+^, Sweet, J.^+^, & Leyva, G. (2025). AI-Enabled Traffic Asset Management. *Institute of Transportation Engineers and International Municipal Signal Association (ITE--IMSA)*, Section 5E. [[Link]](https://files.constantcontact.com/a915e09e101/a6aaf0ff-1a5e-49f7-be15-13d1d17b66af.pdf){target="_blank"}
+
+---
+
+Shang, M.^+^, **Zhao, J.**, Geffen, G., & Wu, Y. (2025). SPR-792: State of the Practice of a Data Management Office within DOTs. *Transportation Research Symposium (TRS) 2025, Rotterdam, Netherlands*.
+
+---
+
+:::: {.pub-entry .pub-entry-reverse}
+::: {.pub-text}
+Shang, M.^+^, **Zhao, J.**, & Wu, Y. (2025). Data-Driven Classification of Vehicle Driving Behavior in Mixed Traffic Using Car-Following Trajectories.
+:::
+::: {.pub-img}
+[![](../static/img/Data-DrivenClassification.svg)](../static/pdfs/TRSS_2025_poster_Jun_v1_MS_v1.pdf){target="_blank"}
+
+[Click for full poster!]{.poster-link}
+:::
+::::
+
+---
+
+**Zhao, J.**^+^, & Zhang, L. (2019). Predicting Behavior Responses under Monetary Incentives by Deep Choice Model Using Pointer Networks. *International Symposium on Emerging Trends in Transportation (ISETT)*. [[Link]](http://www.cota-home.org/isett2019/program.html){target="_blank"}
+
+
+## Invited Talks {#invited}
+
+Sweet, J.^+^, and **Zhao, J.**^+^. AI in Transportation Now! (Invited talk). *ITS Arizona Annual Conference, 10/2025*.
+
+
+## Posters {#posters}
+
+- [Hu, C.]{.underline}, **Zhao, J.**, Ding, H., Wang, L., Zhu, Z., & Yang, H. (2025). Evaluating and Optimization of the Credit Charge-cum-Reward Scheme: Experiments based on a Collaborative Experimental Platform. *Transportation Research Board (TRB) 2025 Annual Meeting*.
+
+- [Jeon, Y.]{.underline}, **Zhao, J.**, Zhang, X., Shamshiripour, A., & Wu, Y. (2026). Understanding User Retention in Bike-Sharing Systems with a Survival Analysis of Operational, Environmental, and Demographic Influences. *Transportation Research Board (TRB) 2026 Annual Meeting*.

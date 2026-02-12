@@ -1,0 +1,102 @@
+---
+title: "Jun Zhao, Ph.D."
+image: static/img/headshot.jpg
+toc: false
+about:
+  template: trestles
+  image-shape: round
+  image-width: 200px
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:zhaojun@arizona.edu
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jun-zhao-ua
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?hl=en&pli=1&user=KJ0F-MMAAAAJ
+---
+
+Postdoctoral Research Associate at the [Center for Applied Transportation Sciences](https://appliedtransportation.arizona.edu/){target="_blank"}, Civil & Architectural Engineering and Mechanics, The University of Arizona.
+
+Developing and applying data-driven and simulation-based frameworks to analyze how emerging mobility systems---including shared mobility, automation, electrification, and AI-assisted decision-making---affect travel behavior, transportation system performance, the environment, and broader social outcomes.
+
+![Research Roadmap](static/img/researchroadmap.png){fig-align="center" style="max-height:500px; margin-top:1.5em;"}
+
+## Work Experience
+
+::: {.experience-card}
+![](static/img/UAlogo.jpg)
+
+**Postdoctoral Researcher --- University of Arizona** \
+Research Areas: Agent-based Model, Micromobility, Traffic Simulation \
+[July 2024 -- Present · Tucson, AZ]{.meta}
+:::
+
+::: {.experience-card}
+![](static/img/zhejiangU2.png)
+
+**Postdoctoral Researcher --- Zhejiang University** \
+Research Areas: Human-Computer Interactive Experiment, Agent-based Model \
+[Jan 2024 -- July 2024 · Hangzhou, China]{.meta}
+:::
+
+::: {.experience-card}
+![](static/img/alibaba.png)
+
+**Senior Algorithm Engineer --- Alibaba Cloud Computing Co. Ltd.** \
+Research Areas: Agent-based Model, Micromobility, Traffic Simulation \
+[Jul 2021 -- Dec 2023 · Hangzhou, China]{.meta}
+:::
+
+::: {.experience-card}
+![](static/img/maryland.png)
+
+**Research Assistant (Part-time) --- National Transportation Center, University of Maryland** \
+Research Areas: Discrete Choice Model, Human Mobility, Travel Mode & Purpose Detection \
+[Aug 2015 -- May 2021 · College Park, MD]{.meta}
+:::
+
+## Education
+
+::: {.experience-card}
+![](static/img/maryland.png)
+
+**Ph.D., Transportation Engineering --- University of Maryland** \
+[Aug 2015 -- May 2021 · College Park, MD]{.meta} \
+GPA: 3.89/4.0 · Coursework: Applied Machine Learning; Discrete Choice Analysis; Computational Statistics
+:::
+
+::: {.experience-card}
+![](static/img/tongji.svg)
+
+**M.S., Management Science & Logistics --- Tongji University** \
+[Sep 2012 -- Jun 2015 · Shanghai, China]{.meta} \
+GPA: 3.52/4.0 · Coursework: Probability & Statistics; Advanced Operations Research
+:::
+
+::: {.experience-card}
+![](static/img/nanjing.svg)
+
+**B.S., Industrial Engineering --- Nanjing University** \
+[Sep 2008 -- Jun 2012 · Nanjing, China]{.meta} \
+GPA: 3.50/4.0 · Coursework: Operations Research; Data Structures & Algorithms; Probability & Statistics
+:::
+
+## Technical Skills
+
+C++, Python, scikit-learn, TensorFlow, PyTorch, R, SQL, Docker, Ray
+
+## Teaching Experience
+
+Co-Teaching with [Dr. Mingfeng Shang](https://www.mingfengshang.com/){target="_blank"} --- CE 363: Transport Engineering and Pavement Design, University of Arizona, Fall 2025.
+
+## Contact
+
+| | |
+|---|---|
+| **Location** | Tucson, Arizona, USA |
+| **Email** | [zhaojun@arizona.edu](mailto:zhaojun@arizona.edu) |
+| **LinkedIn** | [linkedin.com/in/jun-zhao-ua](https://www.linkedin.com/in/jun-zhao-ua){target="_blank"} |
+| **Google Scholar** | [scholar.google.com](https://scholar.google.com/citations?hl=en&pli=1&user=KJ0F-MMAAAAJ){target="_blank"} |

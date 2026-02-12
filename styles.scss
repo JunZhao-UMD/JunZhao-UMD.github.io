@@ -1,0 +1,103 @@
+/*-- scss:defaults --*/
+
+$link-color: #0b57d0;
+
+/*-- scss:rules --*/
+
+/* Experience / education cards */
+.experience-card {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.experience-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: #fff;
+  padding: 4px;
+}
+
+.experience-card p {
+  margin-bottom: 0.25rem;
+}
+
+.meta {
+  color: #6c757d;
+  font-size: 0.9em;
+}
+
+/* Publication entries with image + text side by side */
+.pub-entry {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin: 1.5rem 0;
+}
+
+.pub-entry-reverse {
+  grid-template-columns: 1fr 280px;
+}
+
+.pub-img img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #dee2e6;
+}
+
+.pub-text {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.poster-link {
+  display: block;
+  text-align: center;
+  font-size: 0.85em;
+  color: $link-color;
+  margin-top: 0.5rem;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .experience-card {
+    grid-template-columns: 50px 1fr;
+  }
+
+  .pub-entry,
+  .pub-entry-reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .pub-entry-reverse .pub-text {
+    order: 2;
+  }
+
+  .pub-entry-reverse .pub-img {
+    order: 1;
+  }
+}
+
+/* About page image */
+.about-image img {
+  border: 3px solid #eee;
+}
+
+/* Clean up table borders for contact table */
+.quarto-about-trestles .about-contents table {
+  border: none;
+}
+
+.quarto-about-trestles .about-contents table td {
+  border: none;
+  padding: 0.3rem 0.5rem;
+}
