@@ -13,7 +13,7 @@ toc-location: left
 ![](../static/img/fx1_lrg.jpg)
 :::
 ::: {.pub-text}
-1. Hu, C., Wang, K., Wang, L., **Zhao, J.**, Zhu, Z., Yang, H., Ding, H., He, G., Wang, Z. (2025). Downward Comparisons Enhance Carbon Credit Policy Sustainability: Lab Evidence. *iScience*, Journal Pre-proof. [[Link]](https://doi.org/10.1016/j.isci.2025.114050){target="_blank"}
+1. [Hu, C.]{.underline}, Wang, K., [Wang, L.]{.underline}, **Zhao, J.**\*, Zhu, Z.\*, Yang, H., Ding, H., He, G., & Wang, Z. (2025). Downward Comparisons Enhance Carbon Credit Policy Sustainability: Lab Evidence. *iScience*. [[Link]](https://doi.org/10.1016/j.isci.2025.114050){target="_blank"}
 
     The study tests a carbon Credit-Charge-cum-Reward (CCR) policy using 270 participants. Actual traveler behavior deviates from rational theoretical predictions showing reduced fiscal responsibility, especially among high-value-of-time users. Three low-cost behavioral "nudges" are evaluated. Only the downward-comparison feedback significantly increases driving, improves stability, and generates the highest fiscal revenue with modest emission increases.
 :::
@@ -83,9 +83,13 @@ toc-location: left
 
 ## Preprint Papers {#preprints}
 
+1. [Geffen, G.]{.underline}, **Zhao, J.**, Shang, M., Wang, S., & Wu, Y. (2026). Safety, Mobility, and Environmental Impacts of Driver-Assistance-Enabled Electric Vehicles: An Empirical Study. *arXiv preprint*. [[Link]](https://arxiv.org/abs/2601.17256){target="_blank"}
+
+---
+
 :::: {.pub-entry .pub-entry-reverse}
 ::: {.pub-text}
-1. **Zhao, J.**, Lee, M., Ghader, S., et al. (2020). Quarantine Fatigue: first-ever decrease in social distancing measures after the COVID-19 pandemic outbreak before reopening United States. *arXiv preprint*. [[Link]](https://arxiv.org/abs/2006.03716){target="_blank"}
+2. **Zhao, J.**, Lee, M., Ghader, S., et al. (2020). Quarantine Fatigue: first-ever decrease in social distancing measures after the COVID-19 pandemic outbreak before reopening United States. *arXiv preprint*. [[Link]](https://arxiv.org/abs/2006.03716){target="_blank"}
 
     This study analyzed U.S. mobility changes during COVID-19 using an integrated data panel and the Social Distancing Index (SDI). Results revealed a plateau in early April followed by a universal SDI decline, more trips, and fewer people staying home---termed "quarantine fatigue." The phenomenon began around April 15, before official reopenings, indicating premature relaxation of distancing.
 :::
@@ -101,8 +105,19 @@ toc-location: left
 ![](../static/img/PPP2.png)
 :::
 ::: {.pub-text}
-2. Ghader, S., **Zhao, J.**, Lee, M., Zhou, W., Zhao, G., Zhang, L. (2020). Observed mobility behavior data reveal social distancing inertia. *arXiv preprint*. [[Link]](https://arxiv.org/abs/2004.14748){target="_blank"}
+3. Ghader, S., **Zhao, J.**, Lee, M., Zhou, W., Zhao, G., Zhang, L. (2020). Observed mobility behavior data reveal social distancing inertia. *arXiv preprint*. [[Link]](https://arxiv.org/abs/2004.14748){target="_blank"}
 
     This study used integrated location, COVID-19, and census data to examine the pandemic's impact on U.S. mobility. It identified a "social distancing inertia," where mobility metrics improved voluntarily after initial COVID-19 cases but plateaued within two weeks despite rising infections. This indicates a natural behavioral limit to social distancing.
 :::
 ::::
+
+
+## Manuscripts Under Review {#under-review}
+
+1. **Zhao, J.**, Shang, M.\*, [Geffen, G.]{.underline}, & Wu, Y. Hybrid Data Augmentation with Simulation and Generative AI for Vehicle Driving Behavior Classification in Car-Following Scenarios. *IEEE Transactions on Intelligent Transportation Systems (T-ITS)*.
+
+2. **Zhao, J.**, Shang, M.\*, [Geffen, G.]{.underline}, & Wu, Y. Data-Driven Classification of Vehicle Driving Behavior in Mixed Traffic Using Car-Following Trajectories. *IEEE Intelligent Vehicles Symposium (IV), 2026*.
+
+3. [Geffen, G.]{.underline}, **Zhao, J.**, Shang, M.\*, Wang, S., & Wu, Y. Impacts of Driver-Assistance-Enabled Electric Vehicles on Safety, Mobility, and the Environment: An Empirical Study. *Transportation Research Part D: Transport and Environment*.
+
+4. Chekani, D., **Zhao, J.**, Shamshiripour, A.\*, Wu, Y., & Noh, H. Explainable Pedestrian Volume Estimation from Multi-Source Data Using XGBoost with SHAP and ALE. *Transportation Research Part D: Transport and Environment*.
