@@ -6,7 +6,7 @@ toc-location: left
 
 ## Project Investigator or Co-PI {#pi}
 
-- Wu, Y. (PI), **Zhao, J. (PM of Phase I, Co-PI of Phase II)**, & Tsai, J. (GT, External Co-PI). AI-Enabled Traffic Asset Management. *Pima County Department of Transportation*, 07/01/2024--06/30/2026, \$194,991 (Phase I) + \$80,000 (Phase II).
+- Wu, Y. (PI), **Zhao, J. (PM of Phase I, Co-PI of Phase II)**, & Tsai, J. (GT, External Co-PI). AI-Enabled Traffic Asset Management. *Pima County Department of Transportation*, 07/01/2024--09/30/2026, \$194,991 (Phase I) + \$80,000 (Phase II).
 
     The video below shows an example of a sign annotation video related to the AI-Enabled Project. AI models were used to initially annotate signs for identification and text recognition, with annotations edited to confirm accuracy and train model improvements.
 
@@ -16,20 +16,30 @@ toc-location: left
 
 ---
 
-- Shang, M. (PI), **Zhao, J. (Co-PI)**, Wu, Y. (Co-PI), & Zhao, J. (ASU, External Co-PI). SPR-798: Statewide Pavement Marking Assessment for Driver-Assist Vehicle Technologies. *Arizona Transportation Institute, Arizona Department of Transportation*, 09/01/2025--10/31/2026, \$125,000. [[Link]](https://azti.arizona.edu/spr-798){target="_blank"}
+- **Zhao, J. (PI)**, Shang, M. (Co-PI), Wu, Y. (Co-PI), & Zhao, Junfeng (ASU, External Co-PI). SPR-798: Statewide Pavement Marking Assessment for Driver-Assist Vehicle Technologies. *Arizona Transportation Institute, Arizona Department of Transportation*, 09/01/2025--10/31/2026, \$125,000. [[Link]](https://azti.arizona.edu/spr-798){target="_blank"}
+
+- Smaglik, E. (PI, NAU), Russo, B. J. (Co-PI, NAU), Bakshi, M. (Co-PI, NAU), & **Zhao, J. (Co-PI, UA Lead)**. SPR-841: Freeway Management System Modernization. *Arizona Transportation Institute, Arizona Department of Transportation*, 09/01/2026--08/31/2028, \$199,101 total (\$50,000 UA).
+
+- Zhao, Junfeng (PI, ASU), Wishart, J. (Co-PI, ASU), **Zhao, J. (Co-PI, UA Lead)**, & Russo, B. J. (Co-PI, NAU). SPR-810: Best Practices for Zero-Emission Vehicles Incident Management by State DOTs. *Arizona Transportation Institute, Arizona Department of Transportation*, 08/01/2026--01/31/2028, \$123,633 total (\$25,000 UA).
+
+- Tong, D. (PI, ASU), Shamshiripour, A. (Co-PI, UA), & **Zhao, J. (Co-PI, UA)**. SPR-823: State of the Practice Review --- Nationwide DOT Use of GIS for Environmental Planning and Compliance. *Arizona Transportation Institute, Arizona Department of Transportation*, 09/01/2026--08/31/2028, \$169,998 total (\$49,998 UA).
 
 
 ## Key Researcher {#key-researcher}
 
 ### 2024 -- Present
 
+- Li, X. (PI), Wu, Y. (Co-PI), & **Zhao, J. (Key Researcher)**. Leveraging Existing Traffic Devices and Location-Based Service Data to Obtain Network-Level Pedestrian Data. *Exploratory Advanced Research (EAR) Program, Federal Highway Administration, U.S. Department of Transportation*, 08/06/2026--08/05/2028, \$250,000.
+
+- Pooladvand, S. (PI, ASU), Wu, Y. (PI, UA), Jeong, H. (Co-PI, ASU), Smaglik, E. (Co-PI, NAU), Isham, E. (Co-PI, UA), & **Zhao, J. (Project Manager, UA)**. Inexperienced Driver Mitigation. *Arizona Board of Regents (ABOR), Technology and Research Initiative Fund (TRIF)*, 09/01/2025--09/01/2027, \$284,097.
+
 - Shang, M. (PI), Wu, Y. (Co-PI), & **Zhao, J. (Key Researcher)**. SPR-792: State of the Practice of a Data Management Office Within DOTs. *Arizona Transportation Institute, Arizona Department of Transportation*, 08/12/2024 -- Present, \$55,000. [[Link]](https://azti.arizona.edu/research/spr-792){target="_blank"}
 
-- Yang, B. (PI), Bernal, S. (Co-PI), Engineer, A. (Co-PI), Kokroko, K. (Co-PI), Li, S. (Co-PI), Wu, Y. (Co-PI), Shamshiripour, A. (Co-PI), Cabrera, M. (Co-PI), Van Dyke, M. (Co-PI), Pocheptsova, A. (Co-PI), Li, M. (Co-PI), & **Zhao, J. (Key Researcher)**. South32 Hermosa Project Phase I --- Asset Inventory, Gap Analysis, and Innovative Pathways. *South32, University of Arizona*, 11/01/2024 -- 09/30/2025, \$336,952. [[Link]](https://www.yaojan.org/research-projects-datasets/south32-hermosa-project-phase-1%3A-asset-inventory%2C-gap-analysis%2C-and-innovative-pathways){target="_blank"}
+- Yang, B. (PI), Bernal, S. (Co-PI), Engineer, A. (Co-PI), Kokroko, K. (Co-PI), Li, S. (Co-PI), Wu, Y. (Co-PI), Shamshiripour, A. (Co-PI), Cabrera, M. (Co-PI), Van Dyke, M. (Co-PI), Pocheptsova, A. (Co-PI), Li, M. (Co-PI), & **Zhao, J. (Key Researcher)**. South32 Hermosa Project Phase I --- Asset Inventory, Gap Analysis, and Innovative Pathways. *South32, University of Arizona*, 11/01/2024 -- 09/30/2025, \$336,952. [[Link]](https://www.yaojan.org/research-projects-datasets/south32-hermosa-project-phase-1%3A-asset-inventory%2C-gap-analysis%2C-and-innovative-pathways){target="_blank"} [[Final Report]](https://cpba-hermosa.org/wp-content/uploads/2025/11/South32-Hermosa-Project_CPBA_Final-Report-2025.pdf){target="_blank"}
 
 - Lim, C. (PI), Shang, M. (Co-PI), et al. **Zhao, J. (Key Researcher)**. Impact of Transportation Electrification on Air Quality and Health in Arizona. *University of Arizona, Technology and Research Initiative Fund (TRIF)*, 08/2024 -- 09/2025, \$100,000.
 
-- Wu, Y. (PI), Shamshiripour, A. (Co-PI), & **Zhao, J. (Key Researcher)**. Leveraging Existing Data Sources to Obtain Performance Measures for a Multi-modal Transportation System. *Pima Association of Governments*, 11/01/2023 -- 04/30/2025, \$176,570. [[Link]](https://www.yaojan.org/research-projects-datasets/optimizing-traffic-signals-using-multi-source-data%3A-phase-8){target="_blank"}
+- Wu, Y. (PI), Shamshiripour, A. (Co-PI), & **Zhao, J. (Key Researcher)**. Leveraging Existing Data Sources to Obtain Performance Measures for a Multi-modal Transportation System. *Pima Association of Governments*, 11/01/2023 -- 04/30/2025, \$176,570. [[Link]](https://www.yaojan.org/research-projects-datasets/optimizing-traffic-signals-using-multi-source-data%3A-phase-8){target="_blank"} [[Final Report]](https://pagregion.com/wp-content/docs/pag/2025/12/2025-PAG-Multimodal-Performance-Measure-Project-Final-Report.pdf){target="_blank"}
 
 - Ryan, A. (PI), Hurwitz, D. (Co-PI), et al. **Zhao, J. (Key Researcher)**. A Thoughtful Approach to the Integration of Equity in Traffic Safety. *AAA Foundation for Traffic Safety*, 10/01/2023 -- 03/30/2025, \$461,000. [[Link]](https://aaafoundation.org/examining-equity-in-traffic-safety-a-national-perspective-and-case-studies-in-several-states/){target="_blank"}
 
@@ -48,9 +58,17 @@ toc-location: left
 
 - Lim, C. (PI), Shang, M. (Co-PI), Wu, Y. (Co-PI), & **Zhao, J. (Co-Author)**. A Data-Driven Framework to Link Mining Activities, Air Quality, and Cardiorespiratory Health. *Office of Research and Partnerships (ORP), University of Arizona*, Submitted 2025.
 
-- Lim, C. (PI), Shang, M. (Co-PI), Wu, Y. (Co-PI), & **Zhao, J. (Co-Author)**. A Data-Driven Framework to Link Mining Activities, Air Quality, and Cardiorespiratory Health. *NIH Research Project Grant: R01*, to submit 10/2025.
+- Lim, C. (PI), Shang, M. (Co-PI), Wu, Y. (Co-PI), & **Zhao, J. (Co-Author)**. A Data-Driven Framework to Link Mining Activities, Air Quality, and Cardiorespiratory Health. *NIH Research Project Grant: R01*, Submitted 10/2025 (not funded).
 
 - Ryan, A. (PI), Pudasaini, P. (Co-Author), & **Zhao, J. (Co-Author)**. AI-Driven Pavement Marking Visibility Assessment Tool. *NCHRP IDEA*, Submitted 2025.
+
+- Shamshiripour, A. (PI), **Zhao, J. (Co-PI)**, & Nguyen, P. (SDSU, Co-PI). SD2026-02: Need and Feasibility of Default Traffic Analysis Variables and Statewide Traffic Model for South Dakota. *South Dakota Department of Transportation*, 10/01/2026--09/30/2028, \$150,000. Submitted 06/2026.
+
+- Shamshiripour, A. (PI), Tong, D. (ASU, Co-PI), & **Zhao, J. (Co-PI)**. FY2026-C1-PS5: Enterprise GIS + Data Hub for Integrated Planning and Safety in Arizona. *Arizona Transportation Institute, Arizona Department of Transportation*, 18 months, \$169,681. Submitted 06/2026.
+
+- Pima County Department of Transportation (Lead Applicant), University of Arizona & Georgia Institute of Technology (Subrecipients); **Zhao, J. (Lead of UA)**. SAFE-Assets: An AI-Enabled Traffic-Asset Inventory, Condition Monitoring, and Data-Driven Safety Screening across Pima County. *Advanced Transportation Technology and Innovation (ATTAIN) Program, Federal Highway Administration*, 48 months, \$6,250,000 (\$5,000,000 Federal; UA subaward \$1,600,000). Submitted 08/2026.
+
+- Li, L. (PI), **Zhao, J. (Co-PI)**, Wong, V. (UF, Co-PI), & Valipoor, S. (UF, Co-PI). Guidelines to Streets: AI Agents for City-Scale Wheelchair Accessibility Auditing. *Cities Deliver: AI Solutions for Public Services (Seed Track), The Rockefeller Foundation & OpenAI Foundation*, 24 months, \$966,590. Submitted 2026.
 
 
 ## Technical Support Research {#tech-support}
@@ -60,8 +78,23 @@ toc-location: left
 - **Zhao, J. (PM, UA CATS)**, Hendrix, M. (PM, PCDOT). Review of Accessible Pedestrian Signal (APS) Prioritization. *Pima County Department of Transportation*, 08/2025 -- 11/2025.
 
 
+## ADOT--AZTI Technical Assistance Request (TAR) Program {#tar}
+
+**Zhao, J. (Program Manager, UA AZTI)**, FY26--FY27. *Arizona Transportation Institute, Arizona Department of Transportation*.
+
+Manage the end-to-end TAR pipeline---request intake, scoping with ADOT business leads, matching each request to faculty leads across Arizona's three public universities (UA, ASU, NAU), and tracking progress to delivery. Launched the program with three FY26 pilots and scaled it statewide in FY27.
+
+- *[Pilot] FY26-01* --- Multi-State P2P Scoring Review (UA; AZTI Lead: **Zhao, J.**) --- *Completed*
+- *[Pilot] FY26-02* --- LTAP Stakeholder Needs Assessment (UA; AZTI Lead: **Zhao, J.**) --- *Ongoing*
+- *[Pilot] FY26-03* --- Arizona Highways Magazine Subscriber Feedback Study (UA; AZTI Lead: Pudasaini, P.) --- *Completed*
+- *FY27-01* --- ADOT EIT Program Gaps and Needs Assessment (NAU; AZTI Lead: Russo, B. J.) --- *Ongoing*
+- *FY27-02* --- Stone Matrix Asphalt (SMA) Longitudinal Joints (ASU; AZTI Lead: Ozer, H.) --- *Ongoing*
+- *FY27-03* --- Transverse Full Depth Cracking of Prestressed I-Girder Bridge Decks (ASU; AZTI Lead: Ozer, H.) --- *Ongoing*
+- *FY27-04* --- State Advanced Air Mobility (AAM) Practices Review for ADOT Strategic Planning (UA; AZTI Lead: **Zhao, J.**) --- *Ongoing*
+
+
 ## Project Reports {#reports}
 
-- **PAG (Pima Association of Governments) Phase III** --- Leveraging Existing Data Sources to Obtain Performance Measures for a Multi-modal Transportation System, Sep 2025. [in progress]
+- **PAG (Pima Association of Governments) Phase III** --- Leveraging Existing Data Sources to Obtain Performance Measures for a Multi-modal Transportation System, Sep 2025. [[Final Report]](https://pagregion.com/wp-content/docs/pag/2025/12/2025-PAG-Multimodal-Performance-Measure-Project-Final-Report.pdf){target="_blank"}
 
 - **Zhao, J.**, Pan, Y., Xiong, C., & Zhang, L. (2016). Metro SafeTrack Impact on Individual Travel Behavior & Regional Traffic Conditions. *National Transportation Center, University of Maryland*. [[Volume 1]](https://eng.umd.edu/sites/clark.umd.edu/files/NTC-Vol1Issue1.pdf){target="_blank"} [[Volume 2]](https://eng.umd.edu/sites/clark.umd.edu/files/NTC-Vol2Issue1.pdf){target="_blank"}
