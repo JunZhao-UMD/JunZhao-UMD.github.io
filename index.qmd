@@ -1,6 +1,6 @@
 ---
 title: "Jun Zhao, Ph.D."
-subtitle: "Travel Behavior · Traffic Simulation · Shared Mobility · AI Decision-Making"
+subtitle: "Travel Behavior · Traffic Simulation · Human–AI Decision-Making · AI for Infrastructure"
 image: static/img/headshot.jpg
 toc: false
 about:
@@ -22,9 +22,13 @@ about:
       href: https://scholar.google.com/citations?hl=en&pli=1&user=KJ0F-MMAAAAJ
 ---
 
-Researcher/Scientist at the [Center for Applied Transportation Sciences](https://appliedtransportation.arizona.edu/){target="_blank"}, Civil & Architectural Engineering and Mechanics, The University of Arizona.
+Research Scientist at the [Arizona Transportation Institute (AZTI)](https://azti.arizona.edu/){target="_blank"} and Researcher/Scientist at the [Center for Applied Transportation Sciences](https://appliedtransportation.arizona.edu/){target="_blank"}, Civil & Architectural Engineering and Mechanics, The University of Arizona.
 
-Developing and applying data-driven and simulation-based frameworks to analyze how emerging mobility systems---including shared mobility, automation, electrification, and AI-assisted decision-making---affect travel behavior, transportation system performance, the environment, and broader social outcomes.
+Developing and applying data-driven, simulation-based, and AI-enabled frameworks to understand and improve how people, technologies, and transportation infrastructure interact, and how emerging mobility systems---including shared mobility, automation, electrification, and AI-assisted decision-making---affect travel behavior, system performance, safety, the environment, and broader social outcomes. My work connects three threads, shown in the roadmap below:
+
+- **Human:** travel behavior and human--AI decision-making under incentives, pricing, and shared mobility, using discrete choice models, behavioral experiments, and large language models.
+- **Technology:** agent-based and traffic simulation, trajectory-based classification of driving behavior in mixed traffic, and the safety, mobility, and environmental impacts of driver-assistance and electric vehicles.
+- **Network & Infrastructure (AI for Infrastructure):** AI-enabled traffic asset management---computer-vision inventory, condition monitoring, and digital twins of signs, pavement markings, and other roadside assets for safety-driven maintenance---and closing the gap between pavement-marking condition and the perception needs of driver-assistance and automated vehicles.
 
 ::: {style="text-align:center; margin-top:1.5em;"}
 **Research Roadmap**
@@ -33,6 +37,14 @@ Developing and applying data-driven and simulation-based frameworks to analyze h
 :::
 
 ## Work Experience
+
+::: {.experience-card}
+![](static/img/UAlogo.jpg)
+
+**Research Scientist --- Arizona Transportation Institute (AZTI), University of Arizona** \
+Research Areas: AI for Infrastructure, Statewide Transportation Research Programs \
+[Mar 2026 -- Present · Tucson, AZ]{.meta}
+:::
 
 ::: {.experience-card}
 ![](static/img/UAlogo.jpg)
