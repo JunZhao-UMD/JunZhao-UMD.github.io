@@ -22,7 +22,7 @@ about:
       href: https://scholar.google.com/citations?hl=en&pli=1&user=KJ0F-MMAAAAJ
 ---
 
-Research Scientist at the [Arizona Transportation Institute (AZTI)](https://azti.arizona.edu/){target="_blank"} and Researcher/Scientist at the [Center for Applied Transportation Sciences](https://appliedtransportation.arizona.edu/){target="_blank"}, Civil & Architectural Engineering and Mechanics, The University of Arizona.
+Research Scientist at the [Arizona Transportation Institute (AZTI)](https://azti.arizona.edu/){target="_blank"} and the [Center for Applied Transportation Sciences](https://appliedtransportation.arizona.edu/){target="_blank"}, Civil & Architectural Engineering and Mechanics, The University of Arizona.
 
 Developing and applying data-driven, simulation-based, and AI-enabled frameworks to understand and improve how people, technologies, and transportation infrastructure interact, and how emerging mobility systems---including shared mobility, automation, electrification, and AI-assisted decision-making---affect travel behavior, system performance, safety, the environment, and broader social outcomes. My work connects three threads, shown in the roadmap below:
 
@@ -39,7 +39,7 @@ Developing and applying data-driven, simulation-based, and AI-enabled frameworks
 ## Work Experience
 
 ::: {.experience-card}
-![](static/img/UAlogo.jpg)
+![](static/img/azti.png)
 
 **Research Scientist --- Arizona Transportation Institute (AZTI), University of Arizona** \
 Research Areas: AI for Infrastructure, Statewide Transportation Research Programs \
@@ -49,7 +49,7 @@ Research Areas: AI for Infrastructure, Statewide Transportation Research Program
 ::: {.experience-card}
 ![](static/img/UAlogo.jpg)
 
-**Researcher/Scientist --- University of Arizona** \
+**Research Scientist --- University of Arizona** \
 Civil & Architectural Engineering and Mechanics, College of Engineering \
 [Mar 2026 -- Present · Tucson, AZ]{.meta}
 :::
