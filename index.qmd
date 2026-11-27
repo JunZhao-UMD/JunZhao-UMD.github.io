@@ -106,6 +106,8 @@ C++, Python, scikit-learn, TensorFlow, PyTorch, R, SQL, Docker, Ray
 
 ## Teaching Experience
 
+Lecturer --- CE 462/562: Traffic Engineering and Operations, University of Arizona, Spring 2027 (upcoming).
+
 Co-Teaching with [Dr. Mingfeng Shang](https://www.mingfengshang.com/){target="_blank"} --- CE 363: Transport Engineering and Pavement Design, University of Arizona, Fall 2025.
 
 ## Service
